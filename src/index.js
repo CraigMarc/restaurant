@@ -6,7 +6,10 @@ import home from './home';
 
 import menu from './menu';
 
+import location from './location';
+
    header()
    //home()
-  menu()
+  //menu()
+  location()
 
