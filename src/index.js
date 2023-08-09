@@ -4,5 +4,9 @@ import header from './header';
 
 import home from './home';
 
+import menu from './menu';
+
    header()
-   home()
+   //home()
+  menu()
+
