@@ -1,5 +1,4 @@
-console.log('not workng')
-
+import './styles.css';
 import component from './mainpage';
 
 
