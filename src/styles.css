@@ -38,3 +38,25 @@ h1 {
 p {
     font-size: 20px;
 }
+
+.main {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.imageHome {
+    padding-top: 20px;
+    height: 300px;
+    width: 400px;
+}

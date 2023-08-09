@@ -5,10 +5,11 @@ function home() {
     div1.classList.add('main');
 
     const div2 = document.createElement('div');
-    const p1 = document.createElement('div');
+    const p1 = document.createElement('p');
     p1.textContent = '"The best pizza I have ever eaten" Pisquales Customer';
     const myIcon = new Image();
     myIcon.src = Icon;
+    myIcon.classList.add('imageHome');
 
     const div3 = document.createElement('div')
     div3.classList.add('hours');
@@ -42,6 +43,7 @@ function home() {
     div1.appendChild(div3);
     div2.appendChild(myIcon)
     div2.appendChild(p1)
+    div3.appendChild(h3)
     div3.appendChild(hours1)
     div3.appendChild(hours2)
     div3.appendChild(hours3)
