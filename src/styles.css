@@ -1,8 +1,40 @@
-div {
-color: blue;
+body {
+    width: 100%;
+    
+    font-size: 12px;
 }
 
-.pic1 {
-    width: 30%;
-    height: 20%;
+
+
+
+
+header {
+    top: 0;
+    background-color: grey;
+    width: 100%;
+    
+    
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.buttonContainer > div {
+   color: white;
+   font-size: 25px;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-bottom: 2%;
+}
+
+.buttonContainer {
+   display: flex;
+   justify-content: center;
+}
+
+p {
+    font-size: 20px;
 }

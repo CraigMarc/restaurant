@@ -1,7 +1,7 @@
 import './styles.css';
-import component from './mainpage';
 
+import header from './header';
 
-  component()
+ 
 
-   
+   header()
