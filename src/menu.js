@@ -13,7 +13,7 @@ function menu() {
     div1.classList.add('menu');
 
     const h3 = document.createElement('h3');
-    h3.textContent = "Menu"
+    h3.textContent = "Our Menu"
 
     const menuContainer = document.createElement('div');
     menuContainer.classList.add('menuContainer');
