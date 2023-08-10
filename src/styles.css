@@ -110,3 +110,16 @@ span {
 .contact {
     text-align: center;
 }
+
+.hours > h3, h4 {
+    color: white;
+}
+
+.hours {
+    background-color: grey;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+}
