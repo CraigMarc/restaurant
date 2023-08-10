@@ -47,8 +47,8 @@ function menu() {
     }
     createMenuItem('Milano', Image1, 'Artichokes, fresh garlic, fresh mozzarella, fresh basil, ricotta cheese & extra virgin olive oil')
     createMenuItem('San Danielle', Image2, 'Imported prosciutto, fresh arugula, fresh basil, san marzano tomatoes, fresh mozzarella & extra virgin olive oil')
-    createMenuItem('Soppressata Toscana', Image2, 'Hot soppressata, grana padana, san marzano tomatoes, cherry tomatoes, fresh mozzarella, fresh basil & extra virgin olive oil')
-    createMenuItem('Capri', Image2, 'Grilled shrimp, topped with scampi sauce, fresh mozzarella & parsley')
+    createMenuItem('Soppressata Toscana', Image3, 'Hot soppressata, grana padana, san marzano tomatoes, cherry tomatoes, fresh mozzarella, fresh basil & extra virgin olive oil')
+    createMenuItem('Capri', Image4, 'Grilled shrimp, topped with scampi sauce, fresh mozzarella & parsley')
 
     div1.appendChild(h3);
     div1.appendChild(menuContainer);
