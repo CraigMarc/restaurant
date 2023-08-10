@@ -4,7 +4,10 @@ body {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    margin: 0;
 }
+
+
 
 
 header {
@@ -19,6 +22,9 @@ h1 {
     font-size: 60px;
     color: white;
     text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .buttonContainer > div {
@@ -39,8 +45,10 @@ p {
     color: gray;
 }
 
+
 .main {
     text-align: center;
+    
 }
 
 h3 {
@@ -61,6 +69,8 @@ img {
     padding-top: 20px;
     height: 300px;
     width: 400px;
+    border-radius: 0;
+    
 }
 
 span {
