@@ -10,8 +10,7 @@ import location from './location';
 
    header()
    home()
-  //menu()
-  //location()
+  
 
 /*add event listener*/
 const select = document.querySelectorAll('.button');
