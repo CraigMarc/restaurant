@@ -9,7 +9,10 @@ function home() {
 
     const div2 = document.createElement('div');
     const p1 = document.createElement('p');
-    p1.textContent = '"The best pizza I have ever eaten" Pisquales Customer';
+    p1.textContent = '"The best pizza I have ever eaten"';
+    const span = document.createElement('span');
+    span.textContent = "  anonymous Pisquales customer"
+
     const myIcon = new Image();
     myIcon.src = Icon;
     myIcon.classList.add('imageHome');
@@ -41,7 +44,7 @@ function home() {
     const hours7 = document.createElement('h4')
     hours7.textContent = "Saturday: 1pm - 10pm"
 
-
+    p1.appendChild(span);
     div1.appendChild(div2);
     div1.appendChild(div3);
     div2.appendChild(myIcon)
