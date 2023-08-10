@@ -8,17 +8,18 @@ function header() {
    
     const headerDiv1 = document.createElement('div');
     headerDiv1.textContent = 'Home';
-    headerDiv1.classList.add('button1');
-   
+    headerDiv1.classList.add('button');
+    headerDiv1.id = 'home';
 
     const headerDiv2 = document.createElement('div');
     headerDiv2.textContent = 'Menu';
-    headerDiv2.classList.add('button3');
+    headerDiv2.classList.add('button');
+    headerDiv2.id = 'menu';
 
     const headerDiv3 = document.createElement('div');
     headerDiv3.textContent = 'Location';
-    headerDiv3.classList.add('button3');
-    
+    headerDiv3.classList.add('button');
+    headerDiv3.id = 'location';
     
 
 
