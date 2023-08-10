@@ -24,7 +24,7 @@ select.forEach((button) => {
 
 function update (e) {
 
-console.log(e.target.id)
+
 const remove = document.getElementById("remove");
 
 if (e.target.id == 'home') {

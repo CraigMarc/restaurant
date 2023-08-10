@@ -74,11 +74,12 @@ img {
 }
 
 .menuItem { 
-    background-color: bisque;
+    background-color: grey;
     height: 400px;
     width: 320px;
     border-radius: 10px;
     padding: 5px;
+    color: white;
 }
 
 .menuPictures {
