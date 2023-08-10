@@ -5,6 +5,10 @@ import Image4 from './images/pizza4.jpeg'
 
 
 function menu() {
+
+    const removeDiv = document.createElement('div');
+    removeDiv.id = 'remove';
+
     const div1 = document.createElement('div');
     div1.classList.add('menu');
 
@@ -48,11 +52,11 @@ function menu() {
 
     div1.appendChild(h3);
     div1.appendChild(menuContainer);
-
+    removeDiv.appendChild(div1)
    
 
 
-    return document.body.appendChild(div1);
+    return document.body.appendChild(removeDiv);
    
     
 }

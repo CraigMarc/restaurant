@@ -1,6 +1,9 @@
 import Icon from './images/pizza.jpeg'
 
 function home() {
+    const removeDiv = document.createElement('div');
+    removeDiv.id = 'remove';
+
     const div1 = document.createElement('div');
     div1.classList.add('main');
 
@@ -51,10 +54,10 @@ function home() {
     div3.appendChild(hours5)
     div3.appendChild(hours6)
     div3.appendChild(hours7)
+    removeDiv.appendChild(div1)
 
 
-
-    return document.body.appendChild(div1);
+    return document.body.appendChild(removeDiv);
 
 }
 

@@ -9,9 +9,9 @@ import menu from './menu';
 import location from './location';
 
    header()
-   //home()
+   home()
   //menu()
-  location()
+  //location()
 
 /*add event listener*/
 const select = document.querySelectorAll('.button');
@@ -23,6 +23,23 @@ select.forEach((button) => {
 
 
 function update (e) {
-console.log(e)
+
 console.log(e.target.id)
+const remove = document.getElementById("remove");
+
+if (e.target.id == 'home') {
+   remove.remove()
+   home()
+}
+
+if (e.target.id == 'menu') {
+   remove.remove()
+   menu()
+}
+
+if (e.target.id == 'location') {
+   remove.remove()
+   location()
+}
+
 }

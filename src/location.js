@@ -2,6 +2,10 @@ import Image1 from './images/map.png'
 
 
 function location() {
+
+    const removeDiv = document.createElement('div');
+    removeDiv.id = 'remove';
+
     const div1 = document.createElement('div');
     div1.classList.add('contact');
 
@@ -24,8 +28,9 @@ function location() {
     div1.appendChild(h4);
     div1.appendChild(h4II);
     div1.appendChild(myIcon);
+    removeDiv.appendChild(div1)
 
-    return document.body.appendChild(div1);
+    return document.body.appendChild(removeDiv);
    
     
 }
