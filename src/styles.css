@@ -90,6 +90,10 @@ img {
     width: 300px;
 }
 
+.menuItem > h4 {
+    font-size: 25px;
+}
+
 .mapPicture {
     height: 275px;
     width: 400px;
