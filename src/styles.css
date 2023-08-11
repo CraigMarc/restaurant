@@ -73,6 +73,12 @@ img {
     
 }
 
+@media only screen and (max-width: 550px) {
+    .imageHome {
+      width: 100%;
+     
+    }}
+
 span {
     font-style: italic;
 }
