@@ -127,6 +127,12 @@ span {
     width: 400px;
 }
 
+@media only screen and (max-width: 550px) {
+    .mapPicture {
+      width: 100%;
+     
+    }}
+
 .contact {
     text-align: center;
 }
