@@ -50,8 +50,8 @@ function menu() {
     createMenuItem('Soppressata Toscana', Image3, 'Hot soppressata, grana padana, san marzano tomatoes, cherry tomatoes, fresh mozzarella, fresh basil & extra virgin olive oil')
     createMenuItem('Capri', Image4, 'Grilled shrimp, topped with scampi sauce, fresh mozzarella & parsley')
 
-    div1.appendChild(h3);
-    div1.appendChild(menuContainer);
+    removeDiv.appendChild(h3);
+    removeDiv.appendChild(menuContainer);
     removeDiv.appendChild(div1)
    
 
