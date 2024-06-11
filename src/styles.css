@@ -159,3 +159,7 @@ span {
 #home {
     border-bottom: solid;
 }
+
+.menuTitle {
+    text-align: center;
+}

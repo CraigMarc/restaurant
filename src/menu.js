@@ -14,6 +14,7 @@ function menu() {
 
     const h3 = document.createElement('h3');
     h3.textContent = "Our Menu"
+    h3.classList.add('menuTitle');
 
     const menuContainer = document.createElement('div');
     menuContainer.classList.add('menuContainer');

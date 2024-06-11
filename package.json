@@ -4,6 +4,7 @@
   "description": "restaurant-page",
   "main": "index.js",
   "scripts": {
+    "watch": "webpack --watch",
     "pushgit": "git subtree push --prefix dist origin gh-pages"
   },
   "license": "ISC",
