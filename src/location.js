@@ -18,7 +18,17 @@ function location() {
     const h4II = document.createElement('h4');
     h4II.textContent = "Phone: (212) 945-1000"
 
+    //using template literal to insert html
+/*
+    let locHtml = `
+    <div class="contact">
+    <h3>Our Location</h3>
+    <h4>277 Bedford Ave. Brooklyn NY, 11211</h4>
+    <h4>Phone: (212) 945-1000</h4>
+    </div>
     
+    `*/
+
 
     const myIcon = new Image();
     myIcon.src = Image1;
@@ -30,8 +40,11 @@ function location() {
     div1.appendChild(myIcon);
     removeDiv.appendChild(div1)
 
+    // using template literal
+    //removeDiv.insertAdjacentHTML("beforeend", locHtml);
+
     return document.body.appendChild(removeDiv);
-   
+    
     
 }
 
